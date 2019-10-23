@@ -1,2 +1,1 @@
-# stanford-faq
-FAQ and Troubleshooting for ROAR Stanford
+# FAQ and Troubleshooting for ROAR Stanford
