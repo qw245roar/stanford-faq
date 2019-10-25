@@ -9,6 +9,8 @@ Then, for each listed contest (i.e. Tutorial and DTCC): <br/>
 1. Click *Enter Bot* button to the right of the contest name and follow the bot creation wizard <br/>
 1. Make sure to save your bot identity token generated for you at step 3.  
 
+## Review Contest Description
+Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](stanford-roar.com/#/contests) view and clicking the *View & Enter Your Bots* button to the right of the contest name. For DTCC contest, also make sure to review the protocol.md document included in the bot-tutorial-master download which covers the raw protocol for question and prediction messages in the DTCC contest.  
 
 ## Getting started: running ROAR notebooks locally
 
