@@ -1,5 +1,5 @@
 # Welcome
-If you are reading this README it means you have downloaded `bot-tutorial-master` bundle from the [ROAR Getting Started](stanford-roar.com/#/guide) page.  You will need to complete below prerequisite steps before you can enter your bot model in a ROAR contest using one of the provided Quickstart Jupyter Notebooks. 
+If you are reading this README it means you have downloaded `bot-tutorial-master` bundle from the [ROAR Getting Started](https://stanford-roar.com/#/guide) page.  You will need to complete below prerequisite steps before you can enter your bot model in a ROAR contest using one of the provided Quickstart Jupyter Notebooks. 
 
 ## Prerequisites
 ### Obtain a Bot Identity Token
@@ -9,7 +9,7 @@ Before you can connect to a ROAR contest via one of the provided Quickstart Jupy
 1. Make sure to save your bot identity token generated for you at step 3.  NOTE: You must complete the submit action at step 4 before you can start to use your bot identity token to connect to ROAR.
 
 ### Review Contest Description
-Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, also make sure to review the protocol.md document included in the `bot-tutorial-master` bundle which covers the raw protocol for question and prediction messages in the DTCC contest.  
+Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, also make sure to review the protocol.md document included in the `bot-tutorial-master` bundle which covers the raw protocol for question and prediction messages in the DTCC contest.  
 
 ## Quickstart Jupyter Notebooks
 In the downloaded bot-tutorial-master bundle you will find below Quickstart Jupyter Notebooks which you can use to build a model and enter your bot into either of the two contests hosted on ROAR (namely Tutorial/Sine and DTCC).
