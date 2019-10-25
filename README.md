@@ -3,14 +3,13 @@ If you are reading this README it means you have downloaded Tutorial.zip (bot-tu
 
 # Prerequisites
 ## Obtain a Bot Identity Token
-Before you can connect to a ROAR contest via the Jupyter Notebook Quickstart, you will need to register your bot in the respective contest and obtain the bot identity token. You will then use this token which you will use to connect your Jupyter Notebooks to ROAR for the respective contest.
-To obtain a bot identity, launch ROAR web application by browsing https://stanford-roar.com and logging in.   
-Then, for each listed contest (i.e. Tutorial and DTCC): <br/>
-1. Click *Enter Bot* button to the right of the contest name and follow the bot creation wizard <br/>
+Before you can connect to a ROAR contest via one of the provided Quickstart Jupyter Notebook, you will need complete below steps to register your bot in the contest you wish to enter.
+1. Launch ROAR web application via https://stanford-roar.com and log in. 
+1. Click *View & Enter Your Bots* button to the right of the contest you wish to enter your bot in and follow the bot creation wizard <br/>
 1. Make sure to save your bot identity token generated for you at step 3.  
 
 ## Review Contest Description
-Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](stanford-roar.com/#/contests) view and clicking the *View & Enter Your Bots* button to the right of the contest name. For DTCC contest, also make sure to review the protocol.md document included in the bot-tutorial-master download which covers the raw protocol for question and prediction messages in the DTCC contest.  
+Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, also make sure to review the protocol.md document included in the bot-tutorial-master download which covers the raw protocol for question and prediction messages in the DTCC contest.  
 
 ## Getting started: running ROAR notebooks locally
 
