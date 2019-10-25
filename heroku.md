@@ -22,7 +22,7 @@ brew tap heroku/brew && brew install heroku
 
 For other platforms, follow instructions from [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
-And create an application with a unique name (for example, joe-awesome-bot) and set the environment variable `APP_NAME` to it -- or replace `$APP_NAME` in the next lines with your application name:
+And create an application with a unique name (for example, `joe-awesome-bot`) and set the environment variable `APP_NAME` to it -- or replace `$APP_NAME` in the next lines with your application name:
 
 ```sh
 heroku login
@@ -33,20 +33,20 @@ Your application will be running a Jupyter Lab instance that you will use to con
 
 ## Push your Bot to heroku
 
-Obtain the SDK and `cd` into it.
+From within the ROAR directory (`bot-tutorial-master` if you followed the instructions from *TODO*)
 
 ```sh
 heroku container:login
 heroku container:push web -a $APP_NAME 
 ```
 
-## Deploy your app
+## Deploy your application to the Cloud
 
 ```sh
 heroku container:release web -a $APP_NAME
 ```
 
-## To get the URL to access your Jupyter Lab in `heroku`, run:
+## To get the URL to access your Jupyter Lab, in `heroku`, run:
 
 ```sh
 heroku info -a $APP_NAME
@@ -54,7 +54,7 @@ heroku info -a $APP_NAME
 
 ## Log in into Jupyter with your password
 
-Hopefully you followed the instructions in the Welcome notebook to reset your password.
+Hopefully you followed the instructions in the Welcome notebook to reset your password. Enter it to get access to your ROAR Notebooks.
 
 ## Connect your bot!
 
