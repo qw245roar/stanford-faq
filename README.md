@@ -24,9 +24,7 @@ In the downloaded bot-tutorial-master bundle you will find below Quickstart Jupy
 
 There are two options for running a Quickstart Jupyter Notebook locally on your machine. We recommend the docker install unless you already have a lot of the dependencies already available on your machine (e.g. Python 3.7 or higher, Jupyter, PiP) 
 
-#### Docker Install
-
-[Docker Installation](docker.md) <br/>
+#### [Run with Docker](docker.md) <br/>
 
 #### Basic Install
 To run Quickstart Jupyter Notebook locally, you will need to complete below steps.
