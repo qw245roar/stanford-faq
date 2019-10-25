@@ -1,4 +1,4 @@
-# FAQ and Troubleshooting for ROAR Stanford
+ 
 
 ## Getting started: running ROAR notebooks locally
 
@@ -40,3 +40,6 @@ docker run -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
 
 [heroku](heroku.md) <br/>
 [GCP](gcp.md)
+
+# FAQ and Troubleshooting
+[FAQs](FAQ.md) <br/>
