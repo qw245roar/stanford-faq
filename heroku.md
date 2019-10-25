@@ -40,8 +40,17 @@ heroku container:push web -a $APP_NAME
 heroku container:release web -a $APP_NAME
 ```
 
-## To get your URL
+## To get the URL to access your Jupyter Lab in `heroku`, run:
 
 ```sh
 heroku info -a $APP_NAME
 ```
+
+## Log in into Jupyter with your password
+
+Hopefully you followed the instructions in the Welcome notebook to reset your password.
+
+## Connect your bot!
+
+The steps to participate from the Cloud are the same as from your laptop!
+
