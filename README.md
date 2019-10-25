@@ -13,14 +13,11 @@ Make sure to review the Contest Description page for the contest in which you wa
 
 # Quickstart Jupyter Notebooks
 In the downloaded bot-tutorial-master bundle you will find below Quickstart Jupyter Notebooks which you can use to build a model and enter your bot into either of the two contests hosted on ROAR (namely Tutorial/Sine and DTCC).
-- Quickstart-Beginner.ipynb 
-  
+- Quickstart-Beginner.ipynb <br/>
   This quickstart uses a last value model to predict the target for a contest in ROAR.
-- Quickstart-Intermediate.ipynb 
-  
+- Quickstart-Intermediate.ipynb <br/>
   This quickstart uses a linear regression model to predict the target for a contest in ROAR.
-- Quickstart-Advanced.ipynb
-  
+- Quickstart-Advanced.ipynb <br/>  
   This quickstart uses a temporal convolutional network model to predict the target for a contest in ROAR.
 
 # Running a Quickstart Jupyter Notebook locally
