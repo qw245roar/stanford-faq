@@ -34,10 +34,7 @@ To run Quickstart Jupyter Notebook locally, you will need to complete below step
    You may need to use `sudo` for pip install commands.
     ```bash
     cd bot-tutorial-master
-    pip install -e bot-sdk
-    pip install -r requirements.txt
-    jupyter labextension install @pyviz/jupyterlab_pyviz
-    jupyter labextension install @jupyter-widgets/jupyterlab-manager
+    ./scripts/local_install.sh
     ```
 1. Load one of below Quickstart Jupyter Notebooks available in `bot-tutorial-master` folder.  We recommend that you start with Quickstart-Sine.
     * `Quickstart-Tutorial.ipynb`
