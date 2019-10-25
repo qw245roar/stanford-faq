@@ -14,6 +14,8 @@ Once you have Docker installed, open a terminal windows and follow the below ste
 cd bot-tutorial-master
 ```
 
+Note: In case you get some permission error or need read/write access to anyone to the files in this directory -- so that updates can be persisted from the container user--, run `sudo chmod -R 757 .`
+
 1. To build the docker image run: 
 ```sh
 docker build -t roar-tutorial:1.0 .
