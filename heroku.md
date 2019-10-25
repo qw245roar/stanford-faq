@@ -8,7 +8,9 @@ Follow the instructions from this link:
 
 [https://signup.heroku.com](https://signup.heroku.com)
 
-The free tier give you 550 hours a month, extended to 1000 hours if you enter your credit card information: enough to run a your BOT for free.
+The free tier give you 550 hours a month, extended to 1000 hours if you enter your credit card information -- but won't be charged if you don't go over the free tier --.
+
+It's enough to run a your BOT for free!
 
 And install the `heroku` cli:
 
@@ -18,12 +20,16 @@ On macOS:
 brew tap heroku/brew && brew install heroku
 ```
 
-And create your app with name referred as `APP_NAME` in the rest of the instructions:
+For other platforms, follow instructions from [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+
+And create an application with a unique name (for example, joe-awesome-bot) and set the environment variable `APP_NAME` to it -- or replace `$APP_NAME` in the next lines with your application name:
 
 ```sh
 heroku login
 heroku create $APP_NAME
 ```
+
+Your application will be running a Jupyter Lab instance that you will use to connect to the ROAR platform.
 
 ## Push your Bot to heroku
 
