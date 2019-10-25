@@ -81,7 +81,8 @@ To run Quickstart Jupyter Notebook locally, you will need to complete below step
 ## Deployment options
 
 [heroku](heroku.md) <br/>
-[GCP](gcp.md)
+[GCP](gcp.md) <br/>
+[AWS](aws.md) <br/>
 
 # FAQ and Troubleshooting
 [FAQs](FAQ.md) <br/>
