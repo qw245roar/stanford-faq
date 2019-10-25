@@ -1,1 +1,31 @@
 
+# Build and Run Docker Container
+
+## Navigate to the expanded directory from the `Tutorial.zip` file:
+
+```sh
+cd bot-tutorial-master
+```
+
+Note: In case you get some permission error or need read/write access to anyone to the files in this directory -- so that updates can be persisted from the container user--, run `sudo chmod -R 757 .`
+
+## To build the docker image run: 
+```sh
+docker build -t roar-tutorial:1.0 .
+```
+Note: On linux, you may need to use `sudo` before your docker commands.
+   - The above command will take couple of minutes and build ~2.5GB.
+   
+## To run container from the built image: 
+```
+docker run -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
+```
+   - Above command binds local host port `8888` to the container port `8888`. In case you have other server app listening on `8888` you'd want to change the first port of the `-p` argument.
+
+   - It also mounts the current directory (which contains the sample notebooks besides other files), into the `/notebooks` directory in the running container. This allows saving any changes to the notebooks and bot code when running in the container to be persisted to the local directory even after the container is stopped or deleted.
+   
+## Open your Notebooks
+
+Open a browser (we recommend Chrome) to [http://localhost:8888](http://localhost:8888) and use `ROAR` as the password.
+
+You have now access to the ROAR Notebooks continue the journey!
