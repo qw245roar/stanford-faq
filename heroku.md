@@ -1,5 +1,7 @@
 Simple instruction to participate to ROAR with `heroku`:
 
+These steps will build and deploy a Docker image that runs Jupyter on the `heroku` platform.
+
 ## Create a `heroku` account:
 
 https://signup.heroku.com
