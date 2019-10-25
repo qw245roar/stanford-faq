@@ -8,7 +8,12 @@ Once you have Docker installed, open a terminal windows and follow the below ste
 
 
 ##### Build and Run Docker Container
-1. Navigate to the expanded directory from the Tutorial.zip file: `cd bot-tutorial-master` 
+1. Navigate to the expanded directory from the `Tutorial.zip` file:
+
+```sh
+cd bot-tutorial-master
+```
+
 1. To build the docker image run: 
 ```sh
 docker build -t roar-tutorial:1.0 .
