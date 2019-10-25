@@ -6,7 +6,7 @@ If you are reading this README it means you have downloaded Tutorial.zip (bot-tu
 Before you can connect to a ROAR contest via one of the provided Quickstart Jupyter Notebooks, you will need complete below steps to register your bot in the contest you wish to enter.
 1. Launch ROAR web application via https://stanford-roar.com and log in. 
 1. Click *View & Enter Your Bots* button to the right of the contest you wish to enter your bot in and follow the bot creation wizard <br/>
-1. Make sure to save your bot identity token generated for you at step 3.  NOTE: You must complete the submit step of the bot wizard before you can start using your bot identity token to connect to ROAR.
+1. Make sure to save your bot identity token generated for you at step 3.  NOTE: You must complete the submit action at step 4 before you can start to use your bot identity token to connect to ROAR.
 
 ## Review Contest Description
 Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, also make sure to review the protocol.md document included in the bot-tutorial-master download which covers the raw protocol for question and prediction messages in the DTCC contest.  
