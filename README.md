@@ -9,7 +9,9 @@ Before you can connect to a ROAR contest via one of the provided Quickstart Jupy
 1. Make sure to save your bot identity token generated for you at step 3.  NOTE: You must complete the submit action at step 4 before you can start to use your bot identity token to connect to ROAR.
 
 ### Review Contest Description
-Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, also make sure to review the `protocol.md` document included in the `bot-tutorial-master` bundle which covers the raw protocol for question and prediction messages in the DTCC contest.  
+Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, please review below additional resources from the `bot-tutorial-master` bundle: 
+- `protocol.md`: Covers the raw protocol for question and prediction messages in the DTCC contest  
+- `DTCC-Data-Exploration.ipynb`: Provides examples applying different machine learning models to DTCC data  
 
 ## Quickstart Jupyter Notebooks
 In the downloaded `bot-tutorial-master` bundle you will find below Quickstart Jupyter Notebooks which you can use to build a model and enter your bot into either of the two contests hosted on ROAR (namely Tutorial/Sine and DTCC).
