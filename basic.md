@@ -1,4 +1,4 @@
-# Run the Quickstart Notebooks from Jupyter without Docker
+# Running Quickstart Jupyter Notebooks without Docker
 To run Quickstart Jupyter Notebook locally using non-docker based installation, you will need to complete below steps.
 1. Install NodeJS from here: https://nodejs.dev/how-to-install-nodejs
 1. Install **Python 3.7 or newer** and Jupyter if you don't have them installed already. If you need to install pip separately you can do so from [here](https://pip.pypa.io/en/stable/installing/).
