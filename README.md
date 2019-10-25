@@ -1,3 +1,6 @@
 # FAQ and Troubleshooting for ROAR Stanford
 
-Perfect software
+
+## Deployment options
+
+[heroku](heroku.md)
