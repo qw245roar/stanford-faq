@@ -1,3 +1,4 @@
+# Run the Quickstart Notebooks from Jupyter without Docker
 To run Quickstart Jupyter Notebook locally using non-docker based installation, you will need to complete below steps.
 1. Install NodeJS from here: https://nodejs.dev/how-to-install-nodejs
 1. Install **Python 3.7 or newer** and Jupyter if you don't have them installed already. If you need to install pip separately you can do so from [here](https://pip.pypa.io/en/stable/installing/).
@@ -7,9 +8,7 @@ To run Quickstart Jupyter Notebook locally using non-docker based installation, 
     cd bot-tutorial-master
     ./scripts/local_install.sh
     ```
-1. Load one of below Quickstart Jupyter Notebooks available in `bot-tutorial-master` folder.  We recommend that you start with Quickstart-Sine.
-    * `Quickstart-Tutorial.ipynb`
-    * `Quickstart-DTCC.ipynb`
+1. Load one of Quickstart Jupyter Notebooks provided in `bot-tutorial-master` bundle.  
 1. Start JupyterLab by running below command:
     ```bash
     jupyter-lab
