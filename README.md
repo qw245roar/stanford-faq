@@ -24,7 +24,8 @@ docker run -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
 
    - It also mounts the current directory (which contains the sample notebooks besides other files), into the `/notebooks` directory in the running container. This allows saving any changes to the notebooks and bot code when running in the container to be persisted to the local directory even after the container is stopped or deleted.
    
-1. Open a browser (we recommend Chrome) to http://localhost:8888
+1. Open a browser (we recommend Chrome) to http://localhost:8888 and use ROAR as the password.
+
 1. Launch the Welcome notebook to continue the journey!
 
 
