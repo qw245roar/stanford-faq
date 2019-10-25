@@ -23,19 +23,6 @@ heroku create $APP_NAME
 
 Obtain the SDK and `cd` into it.
 
-## TODO: Make it easier: setup password for your Jupyter Notebook
-
-```python
-In [1]: from notebook.auth import passwd
-In [2]: passwd()
-```
-and update your `notebook_config.py` with the password hash.
-
-TODO: only one Dockerfile, but for now, make sure your CMD is:
-```docker
-CMD [ "jupyter-lab", "--config=notebook_config.py"]
-```
-
 ```sh
 heroku container:login
 heroku container:push web -a $APP_NAME 
