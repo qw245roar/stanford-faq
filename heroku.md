@@ -4,7 +4,11 @@ These steps will package and deploy your local setup on the `heroku` platform (b
 
 ## Create a `heroku` account:
 
-https://signup.heroku.com
+Follow the instructions from this link:
+
+[https://signup.heroku.com](https://signup.heroku.com)
+
+The free tier give you 550 hours a month, extended to 1000 hours if you enter your credit card information: enough to run a your BOT for free.
 
 And install the `heroku` cli:
 
