@@ -37,3 +37,4 @@ docker run -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
 ## Deployment options
 
 [heroku](heroku.md)
+[GCP](gcp.md)
