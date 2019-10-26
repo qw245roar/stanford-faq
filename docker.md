@@ -25,7 +25,9 @@ Note: On linux, you may need to use `sudo` before your docker commands.
 ```
 docker run  --rm -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
 ```
-   - Above command binds localhost port `8888` to the container port `8888`. In case you get the error: **Bind for 0.0.0.0:8888 failed: port is already allocated**, you want to make sure you don't have a Docker instance already running:
+   - Above command binds localhost port `8888` to the container port `8888`.
+   
+   In case you get the error: **Bind for 0.0.0.0:8888 failed: port is already allocated**, you want to make sure you don't have a Docker instance already running:
    
  ```
  docker ps
