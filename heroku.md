@@ -66,6 +66,8 @@ Hopefully you followed the instructions in the Welcome notebook to reset your pa
 
 The steps to participate from the Cloud are the same as from your laptop!
 
+**IMPORTANT:** In heroku, your application will sleep/become iddle if you don't see traffic for 30 minutes. We recommend running the Tutorial contest as a way to ensure your application stays responsive!
+
 ## Update your app
 
 To update your app, follow the exact same steps as to deploy your app for the first time.
