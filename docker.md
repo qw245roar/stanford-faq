@@ -23,7 +23,7 @@ Note: On linux, you may need to use `sudo` before your docker commands.
    
 ## To run container from the built image: 
 ```
-docker run -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
+docker run  --rm -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
 ```
    - Above command binds local host port `8888` to the container port `8888`. In case you have other server app listening on `8888` you'd want to change the first port of the `-p` argument.
 
