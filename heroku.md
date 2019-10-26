@@ -33,7 +33,7 @@ Your application will be running a Jupyter Lab instance that you will use to con
 
 ## Push your Bot to heroku
 
-From within the ROAR directory (`bot-tutorial-master` if you followed the instructions from *TODO*)
+From within the ROAR SDK folder, once you are happy with your local BOT, you will package everything up by running:
 
 ```sh
 heroku container:login
