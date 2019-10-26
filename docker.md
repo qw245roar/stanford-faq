@@ -33,7 +33,7 @@ docker run  --rm -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
  docker ps
  ```
  
- And if you find an instance of `roar-tuturial` already running, copy the `CONTAINER ID`: you can kill it by using
+ And if you find an instance of `roar-tuturial` already running, copy the `CONTAINER ID`. You can kill it by using
  
  ```
  docker kill $CONTAINER_ID
