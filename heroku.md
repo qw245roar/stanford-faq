@@ -66,3 +66,6 @@ Hopefully you followed the instructions in the Welcome notebook to reset your pa
 
 The steps to participate from the Cloud are the same as from your laptop!
 
+## Update your app
+
+To update your app, follow the exact same steps as to deploy your app for the first time.
