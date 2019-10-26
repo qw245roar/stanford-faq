@@ -52,6 +52,12 @@ heroku container:release web -a $APP_NAME
 heroku info -a $APP_NAME
 ```
 
+You can also get the status of your application (up, crashed, iddle):
+
+```sh
+heroku ps -a
+```
+
 ## Log in into Jupyter with your password
 
 Hopefully you followed the instructions in the Welcome notebook to reset your password. Enter it to get access to your ROAR Notebooks.
