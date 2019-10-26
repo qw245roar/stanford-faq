@@ -25,7 +25,17 @@ Note: On linux, you may need to use `sudo` before your docker commands.
 ```
 docker run  --rm -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
 ```
-   - Above command binds local host port `8888` to the container port `8888`. In case you have other server app listening on `8888` you'd want to change the first port of the `-p` argument.
+   - Above command binds local host port `8888` to the container port `8888`. In case you have other server app listening on `8888`, you want to make sure you don't have a Docker instance already running:
+   
+ ```
+ docker ps
+ ```
+ 
+ And if you find an instance of `roar-tuturial` already running, copy the `CONTAINER ID`: you can kill it by using
+ 
+ ```
+ docker kill $CONTAINER_ID
+ ```
 
    - It also mounts the current directory (which contains the sample notebooks besides other files), into the `/notebooks` directory in the running container. This allows saving any changes to the notebooks and bot code when running in the container to be persisted to the local directory even after the container is stopped or deleted.
    
