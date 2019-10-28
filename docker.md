@@ -42,12 +42,12 @@ Use this section if you encounter error: *Bind for 0.0.0.0:8888 failed: port is 
 Try any of below steps to resolve:
 
 - Check if you have a Docker instance of `roar-tutorial` already running:
- ```
- docker ps  
- ```
- If you see a process with `IMAGE` name `roar-tuturial*` already running, copy its `CONTAINER ID` value and run below kill command to kill the instance:
- ```
- docker kill $CONTAINER_ID
- ```
+    ```
+    docker ps  
+    ```
+    If you see a process with `IMAGE` name `roar-tuturial*` already running, copy its `CONTAINER ID` value and run below kill command to kill the instance:
+    ```
+    docker kill $CONTAINER_ID
+    ```
 - Check if you have another server app listening on port `8888`, if so you can change the destination port for example `-p 8081:8080`.
 
