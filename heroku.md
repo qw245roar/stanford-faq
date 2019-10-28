@@ -1,5 +1,5 @@
 Note that `heroku` is **not** recommended platform for hosting ROAR contest bots 
-at the moment beause the hosted application are restarted daily. This will cause 
+at the moment because the hosted application are restarted daily. This will cause 
 your bots running in Jupyter notebooks to stop as a result.
 
 ## Create a `heroku` account:
