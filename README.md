@@ -33,8 +33,8 @@ There are two options for running a Quickstart Jupyter Notebook locally on your 
 ## Deployment options
 Once you've built and tested your model, we do not recommend that you run it locally as your bot will disconnect from ROAR contest in the event of your workstation going to sleep or getting shut down.  Hence, it is recommended that you deploy your bot model on a more stable server infrastructure such as the Public Cloud. Some cloud options and detailed deployment steps are provided below.
 
-[heroku](heroku.md) <br/>
-[GCP](gcp.md) <br/> 
+#### [Google Cloud Platform](gcp.md)
+#### [Amazon Web Services](aws.md)
 
 ## FAQ and Troubleshooting
 [FAQs](FAQ.md) <br/>
