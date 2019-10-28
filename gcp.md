@@ -32,14 +32,14 @@ Below steps will guide you on getting your bot development and deployment starte
    - Go to the upper left and click the main menu -> "Compute Engine" -> "VM Instances"
    - On the right, there is a small button labelled "SSH".  Click it to open an SSH terminal.
    - In the top right of the SSH terminal is a Gear icon.  Click it, then click "Upload File" and select the Tutorial.zip file.
-   - Go to the SSH window and type: `sudo apt install unzip`.  
+   - Go to the SSH window and type: `sudo apt install unzip`
    - To expand the contents type: `unzip Tutorial.zip`
    - Update Ubuntu package registry: `sudo apt update`
    - To install Docker in the VM run: `sudo apt install docker.io`
    
 ## Run the bot
 
-1. Now follow the steps from [Build and Run Docker Container](https://github.com/RoarData/stanford-faq#docker-install) section.
+1. Now follow the steps from [Build and Run Docker Container](docker.md#docker-install) section.
    - Note that in the JupyterLab URL shown after the container starts you must substitute 127.0.0.1 (localhost IP) with your remote VM IP address. To get that IP from the Cloud Console, navigate to "Compute Engine" -> "VM Instances", and look at "External IP" for your instance.
    
 
