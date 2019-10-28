@@ -1,7 +1,7 @@
 
 # Run Quickstart Jupyter Notebooks with Docker
 
-You will need to install Docker on your machine as per instructions [here](https://docs.docker.com/install/)
+You will need to install Docker on your machine as per instructions [here](https://docs.docker.com/install/). <br/>
 Once you have Docker installed, open a terminal windows and follow the below steps.
 
 ## Navigate to the expanded directory from the `Tutorial.zip` file:
