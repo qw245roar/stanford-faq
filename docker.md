@@ -18,7 +18,8 @@ _Note_: The chmod step above ensures the container will not encounter file permi
 ```sh
 docker build -t roar-tutorial:1.0 .
 ```
-Note: On linux, you may need to use `sudo` before your docker commands. <br/>
+Note: You may need to use `sudo` before your docker commands. <br/>
+Note: Make sure your Docker daemon is running.  On Mac, for example, run /Applications/Docker. <br/>
 The above command will take couple of minutes to completed and will produce an image of ~2.5GB in size.
    
 ## To run container from the built image
