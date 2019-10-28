@@ -19,7 +19,7 @@ _Note_: The chmod step above ensures the container will not encounter file permi
 docker build -t roar-tutorial:1.0 .
 ```
 Note: On linux, you may need to use `sudo` before your docker commands. <br/>
-The above command will take couple of minutes and produce an image of ~2.5GB in size.
+The above command will take couple of minutes to completed and will produce an image of ~2.5GB in size.
    
 ## To run container from the built image: 
 ```
