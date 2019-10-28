@@ -35,6 +35,7 @@ Below steps will guide you on getting your bot development and deployment starte
    - Go to the SSH window and type: `sudo apt install unzip`.  
    - To expand the contents type: `unzip Tutorial.zip`
    - Update Ubuntu package registry: `sudo apt update`
+   - Upgrade Ubuntu package registry: `sudo apt upgrade`
    - To install Docker in the VM run: `sudo apt install docker.io`
    
 ## Run the bot
