@@ -8,10 +8,10 @@ Once you have Docker installed, open a terminal window and follow the steps belo
 
 ```sh
 cd bot-tutorial-master
+chmod -R 757 .
 ```
 
-
-_Note_: In case you get some permission error in the next steps or need read/write access to anyone to the files in this directory -- so that updates can be persisted from the container user --, run `chmod -R 757 .`
+_Note_: The chmod step above ensures the container will not encounter file permission issues when persisting any file updates
 
 
 ## To build the docker image run: 
