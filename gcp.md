@@ -7,7 +7,7 @@ Below steps will guide you on getting your bot development and deployment starte
 
 ## Create a VM instance
 
-1. On cloud.google.com, go to the upper left and click the main menu (the horizontal bars) then "Compute Engine" -> "VM Instances"
+1. On [cloud.google.com](cloud.google.com), go to the upper left and click the main menu (the horizontal bars) then "Compute Engine" -> "VM Instances"
 1. At the top, click "Create Instance"
 1. In "Boot disk" section choose the "Ubuntu 18.04LTS" image
 1. Click "Create" to create the instance. This may take some time - wait for it to complete
