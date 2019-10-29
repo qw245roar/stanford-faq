@@ -2,7 +2,7 @@ Below steps will guide you on getting your bot development and deployment starte
 
 ## Create a `Google Cloud` account:
 
-1. If you do not already have an account, please sign up for a free account at https://cloud.google.com/free/
+1. If you do not already have an account, please sign up for a free account at [https://cloud.google.com/free/](https://cloud.google.com/free/)
 1. Navigate to cloud.google.com and log in with your new account
 
 ## Create a VM instance
