@@ -12,7 +12,3 @@ A: It is the standard deviation of your prediction error, also referred to as si
 Q: Is the precision important for obtaining a good score?
 
 A: Yes.
-
-Q: 
-
-A:
