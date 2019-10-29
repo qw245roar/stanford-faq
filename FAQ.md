@@ -4,7 +4,7 @@
 
 **Q: Why do you choose log-likelihood as the metric to maximize?**
 
-A: The log-likelihood is both intuitive and flexible, and an efficient means of statistical inference. Considering that it includes both the mean and variance, it is always used in finance to evaluate how accurate your prediction is from the ground-truth we are interested in. More details can be found here https://en.wikipedia.org/wiki/Maximum_likelihood_estimation.
+A: The log-likelihood is both intuitive and flexible, and an efficient means of statistical inference. Considering that it includes both the mean and variance, it is always used in finance to evaluate how accurate your prediction is from the ground-truth we are interested in. More details can be found here [https://en.wikipedia.org/wiki/Maximum_likelihood_estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation).
 
 **Q: What is the precision?**
 
