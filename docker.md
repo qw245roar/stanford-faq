@@ -24,7 +24,7 @@ The above command will take couple of minutes to completed and will produce an i
    
 ## To run container from the built image
 ```
-docker run  --rm -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
+docker run  --rm -p 8888:8888 -v `${pwd}`:/notebooks -it roar-tutorial:1.0
 ```
 
 The above command does two things:
