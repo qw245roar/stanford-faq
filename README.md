@@ -1,5 +1,5 @@
 # Welcome
-If you are reading this README it means you have downloaded `bot-tutorial-master` bundle from the [ROAR Getting Started](https://stanford-roar.com/#/guide) page.  You will need to complete below prerequisite steps before you can enter your bot model in a ROAR contest using one of the provided Quickstart Jupyter Notebooks. 
+If you are reading this README it means you have downloaded `bot-tutorial-master` bundle from the [ROAR Getting Started](https://stanford-roar.com/#/guide) page.  You will need to complete below prerequisite steps before you can enter your bot model in a ROAR contest using one of the provided Quickstart Jupyter Notebooks in this bundle. 
 
 ## Prerequisites
 ### Obtain a Bot Identity Token
