@@ -15,9 +15,13 @@ _Note_: The chmod step above ensures the container will not encounter file permi
 
 
 ## To build the docker image run
+
 ```sh
 docker build -t roar-tutorial:1.0 .
 ```
+
+We include a lot of packages that you may want to use, including `autoML`, `tensorflow`, `keras` and other common datascience libraries: it will take some time to build but you should be set to go with all the modeling right away. The build step is long only the **first** time you run it.
+
 Note: You may need to use `sudo` before your docker commands. <br/>
 Note: Make sure your Docker daemon is running.  On Mac, for example, run /Applications/Docker. <br/>
 The above command will take couple of minutes to completed and will produce an image of ~2.5GB in size.
