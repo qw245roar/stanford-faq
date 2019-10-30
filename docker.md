@@ -28,8 +28,11 @@ The above command will take couple of minutes to completed and will produce an i
    
 ## To run container from the built image
 ```
-docker run  --rm -p 8888:8888 -v "${pwd}":/notebooks -it roar-tutorial:1.0
+docker run  --rm -p 8888:8888 -v `pwd`:/notebooks -it roar-tutorial:1.0
 ```
+
+**Note:** if you get an error with `invalid reference format`, you may want to try with `-v "${pwd}":/notebooks` or `-v "$(pwd)":/notebooks` as different bash have some quirks.
+
 
 The above command does two things:
 1. It binds localhost port `8888` to the container port `8888`.  If you get error: *Bind for 0.0.0.0:8888 failed: port is already allocated*, follow the steps in [port conflict resolution](#port-conflict-resolution) section and then retry the above command.
