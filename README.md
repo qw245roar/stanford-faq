@@ -14,7 +14,7 @@ Before you can connect to a ROAR contest via one of the provided Quickstart Jupy
 ### Review Contest Description
 Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, please review below additional resources from the `bot-tutorial-master` bundle: 
 - `protocol.md`: Covers the raw protocol for question and prediction messages in the DTCC contest  
-- `DTCC-Data-Exploration.ipynb`: Provides examples applying different machine learning models to DTCC data  
+- `DTCC-Data-Exploration.ipynb`: provides historic DTCC trade data (the live data stream is also exposed via `on_broadcast` method inthe  Quickstart Jupyter notebooks listed below). Also offers examples of applying different machine learning models to DTCC data.  
 
 ## Quickstart Jupyter Notebooks
 In the downloaded `bot-tutorial-master` bundle you will find below Quickstart Jupyter Notebooks which you can use to build a model and enter your bot into either of the two contests hosted on ROAR (namely Tutorial/Sine and DTCC).
