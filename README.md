@@ -25,7 +25,18 @@ In the downloaded `bot-tutorial-master` bundle you will find below Quickstart Ju
 - `Quickstart-Advanced.ipynb` <br/>
   This quickstart uses a temporal convolutional network model to predict the target for a contest in ROAR.
   
-### Running Locally
+  
+### How to Get Started with your Bot ###
+
+To speed up the process, we can set up a baseline for you and give you access to a bot running in the cloud.
+
+**This is by far the easiest option of those listed here**
+**Please email bramos@stanford.edu to ask for your bot to be set up**
+
+  
+### Running Locally -- For those who want to deploy on a computer themselves (a pre-existing account, either locally or in the cloud)
+
+**Caution: A locally-deployed model will obviously only run when your computer is awake.**
 
 There are two options for running a Quickstart Jupyter Notebook locally on your machine. We recommend the docker based setup unless you have most of the dependencies already available on your machine (e.g. Python 3.7 or higher, Jupyter, PIP) 
 
@@ -33,7 +44,8 @@ There are two options for running a Quickstart Jupyter Notebook locally on your 
 
 #### [Run without Docker](basic.md) <br/>
 
-## Deployment options
+## Deployment options -- For those who want to deploy in the Cloud themselves (this walks you through how to set up a Cloud account)
+
 Once you've built and tested your model, we do not recommend that you run it locally as your bot will disconnect from ROAR contest in the event of your workstation going to sleep or getting shut down.  Hence, it is recommended that you deploy your bot model on a more stable server infrastructure such as the Public Cloud. Some cloud options and detailed deployment steps are provided below.
 
 #### [Google Cloud Platform](gcp.md)
