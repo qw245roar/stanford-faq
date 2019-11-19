@@ -14,6 +14,11 @@ chmod -R 757 .
 _Note_: The chmod step above ensures the container will not encounter file permission issues when persisting any file updates
 
 
+### Adding Packages
+
+To add `python` packages, add them to `requirements.txt` before the build step (or re-run the build step): it should be much faster than the first time! 
+
+
 ## To build the docker image run
 
 ```sh
