@@ -25,33 +25,45 @@ In the downloaded `bot-tutorial-master` bundle you will find below Quickstart Ju
 - `Quickstart-Advanced.ipynb` <br/>
   This quickstart uses a temporal convolutional network model to predict the target for a contest in ROAR.
   
-  
-### How to Get Started with your Bot ###
+    
+### Running Notebooks and Bots Locally
+**Caution**: A locally-deployed model will only run when your computer is awake and has internet connection. For a bot to participate in the online contest for extended period of time see the JupyterHub section below.
 
-To speed up the process, we can set up a baseline for you and give you access to a bot running in the cloud.
+The steps in this section describe how to set-up Python and JupyterLab environment on
+your local workstation or laptop. The instructions are specific for Mac and Linux OS, 
+but with small tweaks can be made to work for Windows.
 
-**This is by far the easiest option of those listed here**
-**Please email stanfordroar@lists.stanford.edu to ask for your bot to be set up**
+1. **NodeJS** LTS version (e.g. 8, 10, 12) is required by Jupyter and can be installed from  https://nodejs.dev/how-to-install-nodejs
+1. **Python 3.7** is required and install can be installed from https://www.python.org/downloads. Keep in mind that Python 3.8 is currently not compatible with popular ML packages like `tensorflow` and `pytorch`.
+1. Open a terminal (bash, etc.) and run the bellow commands:
+```bash
+# Navigate to the directory containing the unpacked bot-tutorial content
+cd bot-tutorial-master
 
-  
-### Running Locally -- For those who want to deploy on a computer themselves (a pre-existing account, either locally or in the cloud)
+# Create and activate virtual environment to not pollute your system or user site-packages directory
+# Details about the 'venv' package can be found at https://docs.python.org/3/library/venv.html
+python3 -m venv venv
+source venv/bin/activate
 
-**Caution: A locally-deployed model will obviously only run when your computer is awake.**
+# Install the local bot-sdk package in Edit mode so that changes to any SDK code 
+# will take effect w/o re-installing. This also installs bot-sdk\requirements.txt
+pip install -e bot-sdk
 
-There are two options for running a Quickstart Jupyter Notebook locally on your machine. We recommend the docker based setup unless you have most of the dependencies already available on your machine (e.g. Python 3.7 or higher, Jupyter, PIP) 
+# Install jupyterlab, couple of  packages to help with visualization inside the notebooks,
+# and some of the popular ML libraries used in the sample code
+pip install jupyterlab -r requirements.txt -r requirements-ml.txt 
+jupyter labextension install @pyviz/jupyterlab_pyviz @jupyter-widgets/jupyterlab-manager
 
-#### [Run with Docker](docker.md) <br/>
+# Start the server and a browser window will automatically open and you'll be navigated to
+# the JupyterLab web page. Note that if you close the command prompt or Ctrl+C the process
+# at any point, the notebook server and all Python kernels created to run the notebooks will be terminated.
+jupyter-lab
+```
 
-#### [Run without Docker](basic.md) <br/>
+Now open any of the provided tutorial notebooks and start experimenting with the bot code.
 
-## Deployment options -- For those who want to deploy in the Cloud themselves (this walks you through how to set up a Cloud account)
-
-Once you've built and tested your model, we do not recommend that you run it locally as your bot will disconnect from ROAR contest in the event of your workstation going to sleep or getting shut down.  Hence, it is recommended that you deploy your bot model on a more stable server infrastructure such as the Public Cloud. Some cloud options and detailed deployment steps are provided below.
-
-#### [Google Cloud Platform](gcp.md)
-#### [Amazon Web Services](aws.md)
-
-You are welcome to try out other options and share via GitHub your solution!
+### Using Hosted JupyterHub Environment
+**TODO:**
 
 ## FAQ and Troubleshooting
 [FAQs](FAQ.md) <br/>
