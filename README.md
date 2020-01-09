@@ -1,18 +1,17 @@
 # Welcome
-If you are reading this README it means you have downloaded `bot-tutorial-master` bundle from the [ROAR Getting Started](https://stanford-roar.com/#/guide) page.  You will need to complete below prerequisite steps before you can enter your bot model in a ROAR contest using one of the provided Quickstart Jupyter Notebooks in this bundle. 
+If you are reading this README it means you have downloaded `bot-tutorial-master` bundle from the [ROAR Getting Started](https://web.stanford-roar.com/#/guide) page.  You will need to complete below prerequisite steps before you can enter your bot model in a ROAR contest using one of the provided Jupyter Notebooks in this bundle. 
 
 ## Prerequisites
 
 ### Obtain a Bot Identity Token
 Before you can connect to a ROAR contest via one of the provided Quickstart Jupyter Notebooks, you will need complete below steps to register your bot in the contest you wish to enter.
 1. Launch the [ROAR web application](https://stanford-roar.com) and log in. 
-1. Click *View & Enter Your Bots* button to the right of the contest you wish to enter your bot in and follow the bot creation wizard <br/>
-1. Make sure to copy the identity key generated for your bot on the following 'My Bots' page.  
+1. Click *View & Enter Your Bots* button to the right of the contest you wish to enter your bot in and follow the bot creation wizard.
+1. Use *COPY TOKEN* button to put the identity token generated for your bot in the Clipboard.
 
-**Note:** You must complete the submit action at step 4 before you can start to use your bot identity token to connect to ROAR.
 
 ### Review Contest Description
-Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, please review below additional resources from the `bot-tutorial-master` bundle: 
+Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://web.stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, please review below additional resources from the `bot-tutorial-master` bundle: 
 - `protocol.md`: Covers the raw protocol for question and prediction messages in the DTCC contest  
 - `DTCC-Data-Exploration.ipynb`: provides historic DTCC trade data (the live data stream is also exposed via `on_broadcast` method in the  Quickstart Jupyter notebooks listed below), and also offers examples of applying different machine learning models to the DTCC data.  Note this data covers all indices, not just the four you are asked to predict for DTCC contest.
 
