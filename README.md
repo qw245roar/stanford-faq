@@ -63,7 +63,7 @@ Now open any of the provided tutorial notebooks and start experimenting with the
 
 ### Using Hosted JupyterHub Environment
 
-Jupyter Notebooks are available at <jupyter.stanford-roar.com>. 
+Jupyter Notebooks are available at https://jupyter.stanford-roar.com. 
 
 You get started with 10G of space to host your code and models.
 
