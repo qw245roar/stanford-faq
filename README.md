@@ -42,7 +42,7 @@ but with small tweaks can be made to work for Windows.
 1. **NodeJS** LTS version (e.g. 8, 10, 12) is required by Jupyter and can be installed from  https://nodejs.dev/how-to-install-nodejs
 1. **Python 3.7** is required and install can be installed from https://www.python.org/downloads. Keep in mind that Python 3.8 is currently not compatible with popular ML packages like `tensorflow` and `pytorch`.
 1. Open a terminal (bash, etc.) and run the bellow commands:
-```bash
+```sh
 # Navigate to the directory containing the unpacked bot-tutorial content
 cd bot-tutorial-master
 
