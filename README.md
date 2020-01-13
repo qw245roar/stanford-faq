@@ -9,22 +9,29 @@ Before you can connect to a ROAR contest via one of the provided Quickstart Jupy
 1. Click *View & Enter Your Bots* button to the right of the contest you wish to enter your bot in and follow the bot creation wizard.
 1. Use *COPY TOKEN* button to put the identity token generated for your bot in the Clipboard. You'll need to paste this token in the Jupyter notebooks described later in order for your bot code to be able to connect to the ROAR server.
 
+### Obtain an IEX free-tier token
+The Roar notebook below (DTCC-Quickstart.ipynb) requires an API token from the IEX provider.  The steps for doing so are as follows:
+1. Go to www.iexcloud.io
+2. Click "Get Started" in the upper right.
+3. Fill out and submit the form.
+4. Click "Select Free Plan" in the lower left.
+5. An email will be sent to you to verify your email address.  Go to that email and click the link it gives.
+6. This will bring up a screen prompting you to enter a code.  Go to your email and find that code in a second email that was sent.  Enter the code.
+7. You should now be able to log in.  Do so, and navigate to "API tokens" in the upper left.
+8. Copy your API token.  This is the one to be used as the IEX token (not the ROAR token) in the notebook below.
 
 ### Review Contest Description
 Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://web.stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, please review below additional resources from the `bot-tutorial-master` bundle: 
 - `protocol.md`: Covers the raw protocol for question and prediction messages in the DTCC contest  
 - `DTCC-Data-Exploration.ipynb`: provides historic DTCC trade data (the live data stream is also exposed via `on_broadcast` method in the  Quickstart Jupyter notebooks listed below), and also offers examples of applying different machine learning models to the DTCC data.  Note this data covers all indices, not just the four you are asked to predict for DTCC contest.
 
-## Quickstart Jupyter Notebooks
-In the downloaded `bot-tutorial-master` bundle you will find below Quickstart Jupyter Notebooks which you can use to build a model and enter your bot into either of the two contests hosted on ROAR (namely Tutorial/Sine and DTCC).
-- `Quickstart-Beginner.ipynb` <br/>
-  This quickstart uses a last value model to predict the target for a contest in ROAR.
-- `Quickstart-Intermediate.ipynb` <br/>
-  This quickstart uses a linear regression model to predict the target for a contest in ROAR.
-- `Quickstart-Advanced.ipynb` <br/>
-  This quickstart uses a temporal convolutional network model to predict the target for a contest in ROAR.
+## Quickstart Jupyter Notebook
+In the downloaded `bot-tutorial-master` bundle you will find two Jupyter Notebooks which you can use to first explore the DTCC data, and then create your bot.
+- `DTCC-Data-Exploration.ipynb` <br/>
+  This notebook allows you to some some exploratory analysis of some historical DTCC data.  It is meant to help you better understand the dataset and its quirks/intricacies.
+- `DTCC-Quickstart.ipynb` <br/>
+  This quickstart allows you to create a bot.  In it, you will first download the history for the DTCC data.  From there, you can create your model and then deploy it.  A real example using a Temporal Convolutional Network (TCN) is in place.  Do not feel that you need to use this model; it is there as an example only.
   
-    
 ### Running Notebooks and Bots Locally
 **Caution**: A locally-deployed model will only run when your computer is awake and has internet connection. For a bot to participate in the online contest for extended period of time see the JupyterHub section below.
 
