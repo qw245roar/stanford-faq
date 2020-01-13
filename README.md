@@ -62,7 +62,12 @@ jupyter-lab
 Now open any of the provided tutorial notebooks and start experimenting with the bot code.
 
 ### Using Hosted JupyterHub Environment
-**TODO:**
+
+Jupyter Notebooks are available at <jupyter.stanford-roar.com>. 
+
+You get started with 10G of space to host your code and models.
+
+If you want to get access to SDK, including the demo Notebooks, you can copy it to your local disk by opening a Terminal console with `cp -r /roar .`.
 
 ## FAQ and Troubleshooting
 [FAQs](FAQ.md) <br/>
