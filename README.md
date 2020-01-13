@@ -20,17 +20,15 @@ The Roar notebook below (DTCC-Quickstart.ipynb) requires an API token from the I
 7. You should now be able to log in.  Do so, and navigate to "API tokens" in the upper left.
 8. Copy your API token.  This is the one to be used as the IEX token (not the ROAR token) in the notebook below.
 
-### Review Contest Description
-Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://web.stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name. For DTCC contest, please review below additional resources from the `bot-tutorial-master` bundle: 
-- `protocol.md`: Covers the raw protocol for question and prediction messages in the DTCC contest  
-- `DTCC-Data-Exploration.ipynb`: provides historic DTCC trade data (the live data stream is also exposed via `on_broadcast` method in the  Quickstart Jupyter notebooks listed below), and also offers examples of applying different machine learning models to the DTCC data.  Note this data covers all indices, not just the four you are asked to predict for DTCC contest.
+## Review Contest Description
+Make sure to review the Contest Description page for the contest in which you want to enter your bot model.  You can find it by browsing the [ROAR Contests](https://web.stanford-roar.com/#/contests) view and clicking the *Read Description* button to the right of the contest name.
 
 ## Quickstart Jupyter Notebook
 In the downloaded `bot-tutorial-master` bundle you will find two Jupyter Notebooks which you can use to first explore the DTCC data, and then create your bot.
-### `DTCC-Data-Exploration.ipynb`
-  This notebook allows you to some some exploratory analysis of some historical DTCC data.  It is meant to help you better understand the dataset and its quirks/intricacies.
 ### `DTCC-Quickstart.ipynb`
   This quickstart allows you to create a bot.  In it, you will first download the history for the DTCC data.  From there, you can create your model and then deploy it.  A real example using a Temporal Convolutional Network (TCN) is in place.  Do not feel that you need to use this model; it is there as an example only.
+### `DTCC-Data-Exploration.ipynb`
+  This notebook allows you to some some exploratory analysis of some historical DTCC data.  It is meant to help you better understand the dataset and its quirks/intricacies.
   
 ### Running Notebooks and Bots Locally
 **Caution**: A locally-deployed model will only run when your computer is awake and has internet connection. For a bot to participate in the online contest for extended period of time see the JupyterHub section below.
