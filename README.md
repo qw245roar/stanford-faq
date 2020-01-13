@@ -91,11 +91,11 @@ In a Notebook, launch for example:
 
 #### Restarting my Notebook server
 
-In some case the version of the ROAR SDK will be updated by the JupyterHub admins. If you need to pick such updated version,
+In some cases the version of the ROAR SDK will be updated by the JupyterHub admins. If you need to pick such updated version,
 simply restart your notebook session. Any saved files in your `HOME` directory will be still available in the new session. The steps are:
 * Go to "File" menu -> "Hub Control Server".
 * Click "Stop my service" **two** times.
-* Click "Start My Server" and in few seconds your new session will be ready,
+* Click "Start My Server" and in few seconds your new session will be ready.
 
 ## FAQ and Troubleshooting
 [FAQs](FAQ.md)
