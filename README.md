@@ -27,9 +27,9 @@ Make sure to review the Contest Description page for the contest in which you wa
 
 ## Quickstart Jupyter Notebook
 In the downloaded `bot-tutorial-master` bundle you will find two Jupyter Notebooks which you can use to first explore the DTCC data, and then create your bot.
-- `DTCC-Data-Exploration.ipynb` <br/>
+### `DTCC-Data-Exploration.ipynb`
   This notebook allows you to some some exploratory analysis of some historical DTCC data.  It is meant to help you better understand the dataset and its quirks/intricacies.
-- `DTCC-Quickstart.ipynb` <br/>
+### `DTCC-Quickstart.ipynb`
   This quickstart allows you to create a bot.  In it, you will first download the history for the DTCC data.  From there, you can create your model and then deploy it.  A real example using a Temporal Convolutional Network (TCN) is in place.  Do not feel that you need to use this model; it is there as an example only.
   
 ### Running Notebooks and Bots Locally
@@ -40,8 +40,11 @@ your local workstation or laptop. The instructions are specific for Mac and Linu
 but with small tweaks can be made to work for Windows.
 
 1. **NodeJS** LTS version (e.g. 8, 10, 12) is required by Jupyter and can be installed from  https://nodejs.dev/how-to-install-nodejs
+
 1. **Python 3.7** is required and install can be installed from https://www.python.org/downloads. Keep in mind that Python 3.8 is currently not compatible with popular ML packages like `tensorflow` and `pytorch`.
+
 1. Open a terminal (bash, etc.) and run the bellow commands:
+
 ```sh
 # Navigate to the directory containing the unpacked bot-tutorial content
 cd bot-tutorial-master
@@ -77,4 +80,4 @@ You get started with 10G of space to host your code and models.
 If you want to get access to SDK, including the demo Notebooks, you can copy it to your local disk by opening a Terminal console with `cp -r /roar .`.
 
 ## FAQ and Troubleshooting
-[FAQs](FAQ.md) <br/>
+[FAQs](FAQ.md)
