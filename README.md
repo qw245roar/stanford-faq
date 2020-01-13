@@ -71,18 +71,15 @@ Now open any of the provided tutorial notebooks and start experimenting with the
 
 ### Using ROAR Hosted Jupyter Environment
 
-Jupyter Notebooks are available at https://jupyter.stanford-roar.com. 
+Jupyter Notebooks are available at https://jupyter.stanford-roar.com. Every participant has allocated `10 gigabytes`
+space in their `HOME` directory to host code, data and models. Your `HOME` directory is the notebook root directory in JupyterLab.
 
-You get started with `10G` of space to host your code and models.
-
-To get a copy of Quickstart Notebooks that you can modify: copy them to your home directory by opening a Terminal console and typing: 
+ROAR Bot SDK and tutorial notebooks are available at `/roar` read-only location of the JupyterHub session. To get a copy of Quickstart Notebooks and samplem model code that you can modify, simply copy them to your home directory by opening a Terminal windows from the Jupyter Launcher and run: 
 
 ```
 cp /roar/*.ipynb .
 cp -r /roar/models .
 ```
-
-For more information about the ROAR Hosted Jupypter Environment, click [here](jupyterhub.md).
 
 #### Adding python packages
 
@@ -94,10 +91,11 @@ In a Notebook, launch for example:
 
 #### Restarting my Notebook server
 
-In order to get the latest version of the SDK, you need to restart your Notebook server. Your files will be saved.
-
-Go to the menu: **File. Hub Control Server** and click on **Stop my server** then restart it.
-
+In some case the version of the ROAR SDK will be updated by the JupyterHub admins. If you need to pick such updated version,
+simply restart your notebook session. Any saved files in your `HOME` directory will be still available in the new session. The steps are:
+* Go to "File" menu -> "Hub Control Server".
+* Click "Stop my service" **two** times.
+* Click "Start My Server" and in few seconds your new session will be ready,
 
 ## FAQ and Troubleshooting
 [FAQs](FAQ.md)
