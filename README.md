@@ -75,9 +75,29 @@ Jupyter Notebooks are available at https://jupyter.stanford-roar.com.
 
 You get started with `10G` of space to host your code and models.
 
-To get a copy of Quickstart Notebooks that you can modify: copy them to your home directory by opening a Terminal console and typing: `cp -r /roar/*.ipynb .`.
+To get a copy of Quickstart Notebooks that you can modify: copy them to your home directory by opening a Terminal console and typing: 
+
+```
+cp /roar/*.ipynb .
+cp -r /roar/models .
+```
 
 For more information about the ROAR Hosted Jupypter Environment, click [here](jupyterhub.md).
+
+#### Adding python packages
+
+In a Notebook, launch for example:
+
+```python
+!conda install -y tensorflow
+```
+
+#### Restarting my Notebook server
+
+In order to get the latest version of the SDK, you need to restart your Notebook server. Your files will be saved.
+
+Go to the menu: **File. Hub Control Server** and click on **Stop my server** then restart it.
+
 
 ## FAQ and Troubleshooting
 [FAQs](FAQ.md)
