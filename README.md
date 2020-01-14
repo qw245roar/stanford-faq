@@ -64,7 +64,7 @@ jupyter labextension install @pyviz/jupyterlab_pyviz @jupyter-widgets/jupyterlab
 # Start the server and a browser window will automatically open and you'll be navigated to
 # the JupyterLab web page. Note that if you close the command prompt or Ctrl+C the process
 # at any point, the notebook server and all Python kernels created to run the notebooks will be terminated.
-jupyter-lab
+./venv/bin/jupyter-lab
 ```
 
 Now open any of the provided tutorial notebooks and start experimenting with the bot code.
